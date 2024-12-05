@@ -1,0 +1,10 @@
+{
+  "label": "Link Scanner",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Link live checker to check liveness of links."
+  }
+}
+
+

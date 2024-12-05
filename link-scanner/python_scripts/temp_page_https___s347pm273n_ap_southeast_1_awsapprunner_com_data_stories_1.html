@@ -1,0 +1,1222 @@
+<html lang="en"><head><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta charset="utf-8"><link rel="icon" href="/favicon.ico"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#000000"><meta name="Panorama" content="Panorama"><link rel="apple-touch-icon" href="logo192.png"><link rel="manifest" href="/manifest.json"><style>body{margin:0}</style><title>Panorama</title><script async="" src="https://digiwork-lta.net/matomo/matomo.js"></script><script>console.log("load matomo"),console.log("load matomo ID","1");var _paq=window._paq=window._paq||[];_paq.push(["trackPageView"]),_paq.push(["enableLinkTracking"]),function(){var a="https://digiwork-lta.net/matomo/";_paq.push(["setTrackerUrl",a+"matomo.php"]),_paq.push(["setSiteId","1"]);var e=document,o=e.createElement("script"),t=e.getElementsByTagName("script")[0];o.async=!0,o.src=a+"matomo.js",t.parentNode.insertBefore(o,t)}()</script><script defer="defer" src="/static/js/main.3e4ea91b.js"></script><link href="/static/css/main.291c3d71.css" rel="stylesheet"><style></style><style data-styled="" data-styled-version="4.4.1"></style><style id="_goober"> @keyframes go2264125279{from{transform:scale(0) rotate(45deg);opacity:0;}to{transform:scale(1) rotate(45deg);opacity:1;}}@keyframes go3020080000{from{transform:scale(0);opacity:0;}to{transform:scale(1);opacity:1;}}@keyframes go463499852{from{transform:scale(0) rotate(90deg);opacity:0;}to{transform:scale(1) rotate(90deg);opacity:1;}}@keyframes go1268368563{from{transform:rotate(0deg);}to{transform:rotate(360deg);}}@keyframes go1310225428{from{transform:scale(0) rotate(45deg);opacity:0;}to{transform:scale(1) rotate(45deg);opacity:1;}}@keyframes go651618207{0%{height:0;width:0;opacity:0;}40%{height:0;width:6px;opacity:1;}100%{opacity:1;height:10px;}}@keyframes go901347462{from{transform:scale(0.6);opacity:0.4;}to{transform:scale(1);opacity:1;}}.go4109123758{z-index:9999;}.go4109123758 > *{pointer-events:auto;}</style><style data-jss="" data-meta="MuiTouchRipple">
+.MuiTouchRipple-root {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  overflow: hidden;
+  position: absolute;
+  border-radius: inherit;
+  pointer-events: none;
+}
+.MuiTouchRipple-ripple {
+  opacity: 0;
+  position: absolute;
+}
+.MuiTouchRipple-rippleVisible {
+  opacity: 0.3;
+  animation: MuiTouchRipple-keyframes-enter 550ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(1);
+}
+.MuiTouchRipple-ripplePulsate {
+  animation-duration: 200ms;
+}
+.MuiTouchRipple-child {
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 1;
+  border-radius: 50%;
+  background-color: currentColor;
+}
+.MuiTouchRipple-childLeaving {
+  opacity: 0;
+  animation: MuiTouchRipple-keyframes-exit 550ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.MuiTouchRipple-childPulsate {
+  top: 0;
+  left: 0;
+  position: absolute;
+  animation: MuiTouchRipple-keyframes-pulsate 2500ms cubic-bezier(0.4, 0, 0.2, 1) 200ms infinite;
+}
+@-webkit-keyframes MuiTouchRipple-keyframes-enter {
+  0% {
+    opacity: 0.1;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes MuiTouchRipple-keyframes-exit {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes MuiTouchRipple-keyframes-pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.92);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+</style><style data-jss="" data-meta="MuiButtonBase">
+.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiButtonBase-root::-moz-focus-inner {
+  border-style: none;
+}
+.MuiButtonBase-root.Mui-disabled {
+  cursor: default;
+  pointer-events: none;
+}
+@media print {
+  .MuiButtonBase-root {
+    -webkit-print-color-adjust: exact;
+  }
+}
+</style><style data-jss="" data-meta="MuiIconButton">
+.MuiIconButton-root {
+  flex: 0 0 auto;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 12px;
+  overflow: visible;
+  font-size: 1.5rem;
+  text-align: center;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 50%;
+}
+.MuiIconButton-root:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.MuiIconButton-root.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+  background-color: transparent;
+}
+@media (hover: none) {
+  .MuiIconButton-root:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-edgeStart {
+  margin-left: -12px;
+}
+.MuiIconButton-sizeSmall.MuiIconButton-edgeStart {
+  margin-left: -3px;
+}
+.MuiIconButton-edgeEnd {
+  margin-right: -12px;
+}
+.MuiIconButton-sizeSmall.MuiIconButton-edgeEnd {
+  margin-right: -3px;
+}
+.MuiIconButton-colorInherit {
+  color: inherit;
+}
+.MuiIconButton-colorPrimary {
+  color: #3f51b5;
+}
+.MuiIconButton-colorPrimary:hover {
+  background-color: rgba(63, 81, 181, 0.04);
+}
+@media (hover: none) {
+  .MuiIconButton-colorPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-colorSecondary {
+  color: #f50057;
+}
+.MuiIconButton-colorSecondary:hover {
+  background-color: rgba(245, 0, 87, 0.04);
+}
+@media (hover: none) {
+  .MuiIconButton-colorSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-sizeSmall {
+  padding: 3px;
+  font-size: 1.125rem;
+}
+.MuiIconButton-label {
+  width: 100%;
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
+}
+</style><style data-jss="" data-meta="MuiPaper">
+.MuiPaper-root {
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #fff;
+}
+.MuiPaper-rounded {
+  border-radius: 4px;
+}
+.MuiPaper-outlined {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation0 {
+  box-shadow: none;
+}
+.MuiPaper-elevation1 {
+  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation2 {
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation3 {
+  box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation4 {
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation5 {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation6 {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation7 {
+  box-shadow: 0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation8 {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation9 {
+  box-shadow: 0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation10 {
+  box-shadow: 0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation11 {
+  box-shadow: 0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation12 {
+  box-shadow: 0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation13 {
+  box-shadow: 0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation14 {
+  box-shadow: 0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation15 {
+  box-shadow: 0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation16 {
+  box-shadow: 0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation17 {
+  box-shadow: 0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation18 {
+  box-shadow: 0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation19 {
+  box-shadow: 0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation20 {
+  box-shadow: 0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation21 {
+  box-shadow: 0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation22 {
+  box-shadow: 0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation23 {
+  box-shadow: 0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation24 {
+  box-shadow: 0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12);
+}
+</style><style data-jss="" data-meta="MuiDrawer">
+.MuiDrawer-docked {
+  flex: 0 0 auto;
+}
+.MuiDrawer-paper {
+  top: 0;
+  flex: 1 0 auto;
+  height: 100%;
+  display: flex;
+  outline: 0;
+  z-index: 1200;
+  position: fixed;
+  overflow-y: auto;
+  flex-direction: column;
+  -webkit-overflow-scrolling: touch;
+}
+.MuiDrawer-paperAnchorLeft {
+  left: 0;
+  right: auto;
+}
+.MuiDrawer-paperAnchorRight {
+  left: auto;
+  right: 0;
+}
+.MuiDrawer-paperAnchorTop {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: auto;
+  height: auto;
+  max-height: 100%;
+}
+.MuiDrawer-paperAnchorBottom {
+  top: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: auto;
+  max-height: 100%;
+}
+.MuiDrawer-paperAnchorDockedLeft {
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+.MuiDrawer-paperAnchorDockedTop {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.MuiDrawer-paperAnchorDockedRight {
+  border-left: 1px solid rgba(0, 0, 0, 0.12);
+}
+.MuiDrawer-paperAnchorDockedBottom {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+</style><style data-jss="" data-meta="MuiTypography">
+.MuiTypography-root {
+  margin: 0;
+}
+.MuiTypography-body2 {
+  font-size: 1em;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  line-height: 1.43;
+}
+.MuiTypography-body1 {
+  font-size: 0.75em;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.MuiTypography-caption {
+  font-size: 0.75rem;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  line-height: 1.66;
+}
+.MuiTypography-button {
+  font-size: 0.875rem;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
+  line-height: 1.75;
+  text-transform: uppercase;
+}
+.MuiTypography-h1 {
+  font-size: 6rem;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 1.167;
+}
+.MuiTypography-h2 {
+  font-size: 2.5em;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.MuiTypography-h3 {
+  font-size: 3rem;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  line-height: 1.167;
+}
+.MuiTypography-h4 {
+  font-size: 2.125rem;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  line-height: 1.235;
+}
+.MuiTypography-h5 {
+  font-size: 1.5rem;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  line-height: 1.334;
+}
+.MuiTypography-h6 {
+  font-size: 1.8em;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
+  line-height: 1.6;
+}
+.MuiTypography-subtitle1 {
+  font-size: 1.1em;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  line-height: 1.75;
+}
+.MuiTypography-subtitle2 {
+  font-size: 0.93em;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
+  line-height: 1.57;
+}
+.MuiTypography-overline {
+  font-size: 0.75rem;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  line-height: 2.66;
+  text-transform: uppercase;
+}
+.MuiTypography-srOnly {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+.MuiTypography-alignLeft {
+  text-align: left;
+}
+.MuiTypography-alignCenter {
+  text-align: center;
+}
+.MuiTypography-alignRight {
+  text-align: right;
+}
+.MuiTypography-alignJustify {
+  text-align: justify;
+}
+.MuiTypography-noWrap {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.MuiTypography-gutterBottom {
+  margin-bottom: 0.35em;
+}
+.MuiTypography-paragraph {
+  margin-bottom: 16px;
+}
+.MuiTypography-colorInherit {
+  color: inherit;
+}
+.MuiTypography-colorPrimary {
+  color: #3f51b5;
+}
+.MuiTypography-colorSecondary {
+  color: #f50057;
+}
+.MuiTypography-colorTextPrimary {
+  color: rgba(0, 0, 0, 0.87);
+}
+.MuiTypography-colorTextSecondary {
+  color: rgba(0, 0, 0, 0.54);
+}
+.MuiTypography-colorError {
+  color: #f44336;
+}
+.MuiTypography-displayInline {
+  display: inline;
+}
+.MuiTypography-displayBlock {
+  display: block;
+}
+</style><style data-jss="" data-meta="MuiSvgIcon">
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+.MuiSvgIcon-colorPrimary {
+  color: #3f51b5;
+}
+.MuiSvgIcon-colorSecondary {
+  color: #f50057;
+}
+.MuiSvgIcon-colorAction {
+  color: rgba(0, 0, 0, 0.54);
+}
+.MuiSvgIcon-colorError {
+  color: #f44336;
+}
+.MuiSvgIcon-colorDisabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+.MuiSvgIcon-fontSizeInherit {
+  font-size: inherit;
+}
+.MuiSvgIcon-fontSizeSmall {
+  font-size: 1.25rem;
+}
+.MuiSvgIcon-fontSizeLarge {
+  font-size: 2.1875rem;
+}
+</style><style data-jss="" data-meta="MuiButton">
+.MuiButton-root {
+  color: rgba(0, 0, 0, 0.87);
+  padding: 6px 16px;
+  font-size: 0.875rem;
+  min-width: 64px;
+  box-sizing: border-box;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
+  line-height: 1.75;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+.MuiButton-root:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.MuiButton-root.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+@media (hover: none) {
+  .MuiButton-root:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-root:hover.Mui-disabled {
+  background-color: transparent;
+}
+.MuiButton-label {
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+}
+.MuiButton-text {
+  padding: 6px 8px;
+}
+.MuiButton-textPrimary {
+  color: #3f51b5;
+}
+.MuiButton-textPrimary:hover {
+  background-color: rgba(63, 81, 181, 0.04);
+}
+@media (hover: none) {
+  .MuiButton-textPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-textSecondary {
+  color: #f50057;
+}
+.MuiButton-textSecondary:hover {
+  background-color: rgba(245, 0, 87, 0.04);
+}
+@media (hover: none) {
+  .MuiButton-textSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-outlined {
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  padding: 5px 15px;
+}
+.MuiButton-outlined.Mui-disabled {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.MuiButton-outlinedPrimary {
+  color: #3f51b5;
+  border: 1px solid rgba(63, 81, 181, 0.5);
+}
+.MuiButton-outlinedPrimary:hover {
+  border: 1px solid #3f51b5;
+  background-color: rgba(63, 81, 181, 0.04);
+}
+@media (hover: none) {
+  .MuiButton-outlinedPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-outlinedSecondary {
+  color: #f50057;
+  border: 1px solid rgba(245, 0, 87, 0.5);
+}
+.MuiButton-outlinedSecondary:hover {
+  border: 1px solid #f50057;
+  background-color: rgba(245, 0, 87, 0.04);
+}
+.MuiButton-outlinedSecondary.Mui-disabled {
+  border: 1px solid rgba(0, 0, 0, 0.26);
+}
+@media (hover: none) {
+  .MuiButton-outlinedSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-contained {
+  color: rgba(0, 0, 0, 0.87);
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+  background-color: #e0e0e0;
+}
+.MuiButton-contained:hover {
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+  background-color: #d5d5d5;
+}
+.MuiButton-contained.Mui-focusVisible {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+.MuiButton-contained:active {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+.MuiButton-contained.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+@media (hover: none) {
+  .MuiButton-contained:hover {
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+    background-color: #e0e0e0;
+  }
+}
+.MuiButton-contained:hover.Mui-disabled {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.MuiButton-containedPrimary {
+  color: #fff;
+  background-color: #3f51b5;
+}
+.MuiButton-containedPrimary:hover {
+  background-color: #303f9f;
+}
+@media (hover: none) {
+  .MuiButton-containedPrimary:hover {
+    background-color: #3f51b5;
+  }
+}
+.MuiButton-containedSecondary {
+  color: #fff;
+  background-color: #f50057;
+}
+.MuiButton-containedSecondary:hover {
+  background-color: #c51162;
+}
+@media (hover: none) {
+  .MuiButton-containedSecondary:hover {
+    background-color: #f50057;
+  }
+}
+.MuiButton-disableElevation {
+  box-shadow: none;
+}
+.MuiButton-disableElevation:hover {
+  box-shadow: none;
+}
+.MuiButton-disableElevation.Mui-focusVisible {
+  box-shadow: none;
+}
+.MuiButton-disableElevation:active {
+  box-shadow: none;
+}
+.MuiButton-disableElevation.Mui-disabled {
+  box-shadow: none;
+}
+.MuiButton-colorInherit {
+  color: inherit;
+  border-color: currentColor;
+}
+.MuiButton-textSizeSmall {
+  padding: 4px 5px;
+  font-size: 0.8125rem;
+}
+.MuiButton-textSizeLarge {
+  padding: 8px 11px;
+  font-size: 0.9375rem;
+}
+.MuiButton-outlinedSizeSmall {
+  padding: 3px 9px;
+  font-size: 0.8125rem;
+}
+.MuiButton-outlinedSizeLarge {
+  padding: 7px 21px;
+  font-size: 0.9375rem;
+}
+.MuiButton-containedSizeSmall {
+  padding: 4px 10px;
+  font-size: 0.8125rem;
+}
+.MuiButton-containedSizeLarge {
+  padding: 8px 22px;
+  font-size: 0.9375rem;
+}
+.MuiButton-fullWidth {
+  width: 100%;
+}
+.MuiButton-startIcon {
+  display: inherit;
+  margin-left: -4px;
+  margin-right: 8px;
+}
+.MuiButton-startIcon.MuiButton-iconSizeSmall {
+  margin-left: -2px;
+}
+.MuiButton-endIcon {
+  display: inherit;
+  margin-left: 8px;
+  margin-right: -4px;
+}
+.MuiButton-endIcon.MuiButton-iconSizeSmall {
+  margin-right: -2px;
+}
+.MuiButton-iconSizeSmall > *:first-child {
+  font-size: 18px;
+}
+.MuiButton-iconSizeMedium > *:first-child {
+  font-size: 20px;
+}
+.MuiButton-iconSizeLarge > *:first-child {
+  font-size: 22px;
+}
+</style><style data-jss="" data-meta="MuiGrid">
+.MuiGrid-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.MuiGrid-item {
+  margin: 0;
+  box-sizing: border-box;
+}
+.MuiGrid-zeroMinWidth {
+  min-width: 0;
+}
+.MuiGrid-direction-xs-column {
+  flex-direction: column;
+}
+.MuiGrid-direction-xs-column-reverse {
+  flex-direction: column-reverse;
+}
+.MuiGrid-direction-xs-row-reverse {
+  flex-direction: row-reverse;
+}
+.MuiGrid-wrap-xs-nowrap {
+  flex-wrap: nowrap;
+}
+.MuiGrid-wrap-xs-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+.MuiGrid-align-items-xs-center {
+  align-items: center;
+}
+.MuiGrid-align-items-xs-flex-start {
+  align-items: flex-start;
+}
+.MuiGrid-align-items-xs-flex-end {
+  align-items: flex-end;
+}
+.MuiGrid-align-items-xs-baseline {
+  align-items: baseline;
+}
+.MuiGrid-align-content-xs-center {
+  align-content: center;
+}
+.MuiGrid-align-content-xs-flex-start {
+  align-content: flex-start;
+}
+.MuiGrid-align-content-xs-flex-end {
+  align-content: flex-end;
+}
+.MuiGrid-align-content-xs-space-between {
+  align-content: space-between;
+}
+.MuiGrid-align-content-xs-space-around {
+  align-content: space-around;
+}
+.MuiGrid-justify-content-xs-center {
+  justify-content: center;
+}
+.MuiGrid-justify-content-xs-flex-end {
+  justify-content: flex-end;
+}
+.MuiGrid-justify-content-xs-space-between {
+  justify-content: space-between;
+}
+.MuiGrid-justify-content-xs-space-around {
+  justify-content: space-around;
+}
+.MuiGrid-justify-content-xs-space-evenly {
+  justify-content: space-evenly;
+}
+.MuiGrid-spacing-xs-1 {
+  width: calc(100% + 8px);
+  margin: -4px;
+}
+.MuiGrid-spacing-xs-1 > .MuiGrid-item {
+  padding: 4px;
+}
+.MuiGrid-spacing-xs-2 {
+  width: calc(100% + 16px);
+  margin: -8px;
+}
+.MuiGrid-spacing-xs-2 > .MuiGrid-item {
+  padding: 8px;
+}
+.MuiGrid-spacing-xs-3 {
+  width: calc(100% + 24px);
+  margin: -12px;
+}
+.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+  padding: 12px;
+}
+.MuiGrid-spacing-xs-4 {
+  width: calc(100% + 32px);
+  margin: -16px;
+}
+.MuiGrid-spacing-xs-4 > .MuiGrid-item {
+  padding: 16px;
+}
+.MuiGrid-spacing-xs-5 {
+  width: calc(100% + 40px);
+  margin: -20px;
+}
+.MuiGrid-spacing-xs-5 > .MuiGrid-item {
+  padding: 20px;
+}
+.MuiGrid-spacing-xs-6 {
+  width: calc(100% + 48px);
+  margin: -24px;
+}
+.MuiGrid-spacing-xs-6 > .MuiGrid-item {
+  padding: 24px;
+}
+.MuiGrid-spacing-xs-7 {
+  width: calc(100% + 56px);
+  margin: -28px;
+}
+.MuiGrid-spacing-xs-7 > .MuiGrid-item {
+  padding: 28px;
+}
+.MuiGrid-spacing-xs-8 {
+  width: calc(100% + 64px);
+  margin: -32px;
+}
+.MuiGrid-spacing-xs-8 > .MuiGrid-item {
+  padding: 32px;
+}
+.MuiGrid-spacing-xs-9 {
+  width: calc(100% + 72px);
+  margin: -36px;
+}
+.MuiGrid-spacing-xs-9 > .MuiGrid-item {
+  padding: 36px;
+}
+.MuiGrid-spacing-xs-10 {
+  width: calc(100% + 80px);
+  margin: -40px;
+}
+.MuiGrid-spacing-xs-10 > .MuiGrid-item {
+  padding: 40px;
+}
+.MuiGrid-grid-xs-auto {
+  flex-grow: 0;
+  max-width: none;
+  flex-basis: auto;
+}
+.MuiGrid-grid-xs-true {
+  flex-grow: 1;
+  max-width: 100%;
+  flex-basis: 0;
+}
+.MuiGrid-grid-xs-1 {
+  flex-grow: 0;
+  max-width: 8.333333%;
+  flex-basis: 8.333333%;
+}
+.MuiGrid-grid-xs-2 {
+  flex-grow: 0;
+  max-width: 16.666667%;
+  flex-basis: 16.666667%;
+}
+.MuiGrid-grid-xs-3 {
+  flex-grow: 0;
+  max-width: 25%;
+  flex-basis: 25%;
+}
+.MuiGrid-grid-xs-4 {
+  flex-grow: 0;
+  max-width: 33.333333%;
+  flex-basis: 33.333333%;
+}
+.MuiGrid-grid-xs-5 {
+  flex-grow: 0;
+  max-width: 41.666667%;
+  flex-basis: 41.666667%;
+}
+.MuiGrid-grid-xs-6 {
+  flex-grow: 0;
+  max-width: 50%;
+  flex-basis: 50%;
+}
+.MuiGrid-grid-xs-7 {
+  flex-grow: 0;
+  max-width: 58.333333%;
+  flex-basis: 58.333333%;
+}
+.MuiGrid-grid-xs-8 {
+  flex-grow: 0;
+  max-width: 66.666667%;
+  flex-basis: 66.666667%;
+}
+.MuiGrid-grid-xs-9 {
+  flex-grow: 0;
+  max-width: 75%;
+  flex-basis: 75%;
+}
+.MuiGrid-grid-xs-10 {
+  flex-grow: 0;
+  max-width: 83.333333%;
+  flex-basis: 83.333333%;
+}
+.MuiGrid-grid-xs-11 {
+  flex-grow: 0;
+  max-width: 91.666667%;
+  flex-basis: 91.666667%;
+}
+.MuiGrid-grid-xs-12 {
+  flex-grow: 0;
+  max-width: 100%;
+  flex-basis: 100%;
+}
+@media (min-width:600px) {
+  .MuiGrid-grid-sm-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-sm-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-sm-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-sm-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-sm-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-sm-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-sm-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-sm-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-sm-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-sm-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-sm-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-sm-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-sm-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-sm-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:960px) {
+  .MuiGrid-grid-md-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-md-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-md-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-md-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-md-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-md-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-md-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-md-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-md-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-md-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-md-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-md-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-md-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-md-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:1280px) {
+  .MuiGrid-grid-lg-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-lg-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-lg-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-lg-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-lg-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-lg-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-lg-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-lg-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-lg-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-lg-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-lg-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-lg-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-lg-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-lg-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:1920px) {
+  .MuiGrid-grid-xl-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-xl-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-xl-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-xl-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-xl-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-xl-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-xl-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-xl-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-xl-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-xl-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-xl-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-xl-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-xl-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-xl-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+</style><style data-jss="" data-meta="MuiCardMedia">
+.MuiCardMedia-root {
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.MuiCardMedia-media {
+  width: 100%;
+}
+.MuiCardMedia-img {
+  object-fit: cover;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss1 {
+  height: 300px;
+}
+</style></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"><div><div class=""><div><div class="ham-burger-button"><div style="display: flex; flex-direction: row; align-items: center;"><button class="MuiButtonBase-root MuiIconButton-root" tabindex="0" type="button" aria-label="delete" style="background: rgb(49, 83, 128);"><span class="MuiIconButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true" style="color: white;"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg></span><span class="MuiTouchRipple-root"></span></button><p class="hamburger-title" style="color: rgb(49, 83, 128);">Data Stories</p></div></div><a href="/"><div class="logo-center"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAA7CAYAAABSWJcsAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAwTSURBVHgB7Z39dRs3EsCH9+7vs1xB1tdA5CsgWaWAOyUFnOkrwIqvgBydAu7kFGDSKcCyrwBx3UDsNCBuGoiUBjLBEAMTAvG1u1hSH/N7DxK5iwWw4A5mMMACE1QAQAuaKw5gHfuF/1+q8JsnztVkMjHfBUEYgBZHqPhrZX0+UHJ2Cn3BMlyqsFThVIUaBEHIggRbhUcqrBIy9vsQ2ZqwRi9Nq0KjwgvVCrWwA9RtHKp/B1b+sKu8hdsNi8Ax6OfngQoP+dRf1DP0bxgRlfdE/Zur8CQj+lKV5yvowViCbmhVeDnI5MhA3UKl/q0Cp6lr8RCEOwM/soccDCSgr7t2Izmtpyq88pxeqfT+CiPBeT9S4SL3EhW+UmVqoCu4G/4DI6LS/18i/xoKodI6Q21mUVhS3on4x5Q/h0MVDuCegNosPVChsurgeGgdqOsnXPcuM+gIp7UKPDe5AtgLzjv17LqcQx9wd4wm7Jju3yyhEOh/wI4j8V3m0APUQnJC16swi+U5BNTCWUEBUD/IC+f+qa/5LQwAw4L+K3ZoRPhen2KY0QQd8/vm6Km/HDN/K8NdUkNhVJrTzLyLaFL0P2CXofQ9cTsJOmqNGGr1VzhA4DntD7ixUHzp926gMawt+2ml6+ku0c+rjumsMMzYgh5rZLBouTITngeuNSbZAvNapmKa1SpDTr7EDAqA4QfsLBA/qy4D11aZ99e9hd+kn8NP2LGhRP0gfx1Ij7TSIfQE44Ke5Z3m8s0wzpiCnmpkYnTX6pkJJx9O1A/Nh4y0ivVRUTcyuVxCATD8gBHHnvid69K6doWZ94Y9zG3MF3Ri1jFtn9neOz1P2stI2ueJ643ZfIlxRhF0zNPmybJhB1n6ExSCh7KeZ0T9EsoxDRz3eV7JTP0HjMscy3URprCZLGHzETaTmQyUZ6++v8MVp916zj2D7sTqu096uawdf5HzNKRFXZJ9OUYp/+8i52kE6RuIQ976fF8H5tFFC6VaoikUAOPa6DBwfHDXAeOahDhz4veqS9zW5vS9ss5PcbuuO5nDTh1+MnnRr/GyzW30m+0r53vvCSCY1ujERaRsjzCP4hod09p8bZZjnmmf7XwsptEtUuOYFZRhFjjeKOuCtF7jOUctfe++YSY0fDTII45aACrn8JE9AUh9XsC2BTWFAqi06V+rwjvnVG7dUQK2Nqfx3xlc/03cOKUhYZ55jhttvi9S2rwFXe9UZ68hDs0PydLqYwh6lTjfQhlCXYAF/38ROD+F8ZnjMBO+dr43vll+LOx2w/o57BnUk0Do3l1n0XsONk9w3HkFz+z0cTMDrpfzciic/xTiMtJYk35eQlpxPsupw6KCjnlDMS0MBMP911ZVkmkFSav7Kmnsh4sY2meunO/vI3HfRa4bygPnewt5uBZNw9e693HgiVsS0ni29iRt+l/YHyltTi3B9+uI2qoiB/JLiJOl1YsIOvJYL4TNacNVr+l724QalMZ84FbRV0n0cE2hLI3n2BAT/jPnexuJa5+roACseWrYFsI2ffX6Yf67nZwK/+cHt3HSoIP/hHL4GvZvUfsi6PMUAgoCRsaq0yoSbeGx3Ipo9VxBp77tPBA+gG55cvoKb2Eggf6rwTXXm0C80n1D+jFaz/G+Wj31w44BCd16ei9or687RPUx9ZKQZba7DYT53X39zrqghUVpu3VH9/UKwtq0gXRfuATZ2vzTBbpxpPsZ3lfH3dFrrNdT3kUg/WUg/jIQv4YeBNIz89hzyJmT4N7jaSTumRXvA3QA88fRsyZooN+jfMH5mODzOM+gAxiZ667Cc/RzFrivCsMTZ4p43bleHmOc8wHXElEP/J9hdzwd+too6oYi9MDRD2aEvbKOh26etE4DhSBPv8qfLIoSHl3yL9j3GXOy1dbnX2Acvrd8HzF8pjiN964S130B5aBGkcboK+e4rxu1AG2J/QbjQvVykoqDusFrA+fpeAVhjFafec/i+JAmn0IBMD7Tqk+5OpuMGNDoifM2ORq9juVhxTtx4nTyJmOeRv8pM60u49MuncbUMa7R6fxRRp7G0oiNaw/W6DisXroS1OpjDK/ZNCo85mGgQfANlJxVR+lljUF2hN5tHtTHZoflR+fwHK05AOozaQjXpI9551NQH5G0HmlgW3tTl6TOSwJy47kUG1O3nH5NJBrd6w87Wphkl+P2wb76GILegnZO0QSPo4KVSQ9hBWUpPmGD7/cFDMcdMahUoHcJyBIh56cr5C8L1DWZsK2Td8qJZMcb4kEvOba95dhyaMdeDGVdiM36b7sctycPfOUezO2jk4YKeczp4Vjx/2bEVnKMVnGtrQoN+X2CHiLU8+pr6AlZQahN8do55TPNWkgPbebmSw+omVlY8+E6Vk/WA13bh4FXQ8GNN94u+wyuC8BBqd+C76EBbZm4QkaFKdEQZxUFdj8Lz8wd+Ne1o3mmf7/FEkqBelWSEORNnVqhxusruhhv72ng+mXHsiw9adSeeBX65/13eW+AHv4VxqHzFfQA43Pd3X7ueSQdr7c9Ed/Xj34DeeVOrjCD4TfU3mSUPXkPGWXcZd/cZT2aYJdnl173IcQ8ls9zrAjUD4EvHWoQDkovWU1lUulSf/0MesJlMnO2STNVThQysWcDyk7XLWCzKOIV52s0IoWa48a0us9s98UDJ/0ruK7li/0WnAdZmlRHRquSNh91sUe7CJDW5mQlm5mN9qKUhPlNDJX1+RDib96Z7tZGq2e2EHvT6Bj3DJfQxogdxnExU6Nb8V1LonffEDdrrpWcZJLK0/wGFYZX0Vk3pHyvcxXeYOLlIdRa2a2brGWmMHPNONysWUd1NkX/egHFNTrmLRPV6+09zFswYyv926DRZ5FzC+gGtZ615/gJ5Pdxf4btzS3aUGSlWWgK5mkJ30VpX0JmnvSvzYgzg26QdqVGj7Sa6b9XUHA6qjWz7C3sHp8FZtMO+D3J95CyFoxWb+jLjRZ01P2MmGf8HXRjAbry6cc3O88AdBgOI8GFjkxkffktrAakhY6oa6mRoD4+fa34cAUFG4mB0M3FPO29HYLcJWlBN17Hieifulu567rTZPunsGPY9DAV5mrPdh8aTribOI2GsTCueG2DrumE1ok3DFovnvM4gu33EXysN3240YIuCLcN3Awl2j6Kiv8bh1szVEmh3uGFBL1ORQUa5kTt0LriYDZRdDdU/DiRjRQF4caAm91qyHw3Hnp7rsKBFTq97CQIgiAIgiAIgiAIgiAIgiAIgnCD4HnXNQiCcHfhFx06vYwjCEMZeykp4YaBm7fRdvL2m3AzEEG/f9DUSXpPe587lgg7RgRdEO4Bt2WFmTsJm8/0dp55AYLe0FvkvtbKTj2a62xWImlUeO+7nl+CsN+ootc8zYIi65VXfO8z4PXtmR70Kacg3DuMMw71HtiXHJYczPpm81gfGvWqKWbnkRV/XvJ3Wq/ct5LKxMoHnXzP3fy4L3+Mm1VSVk45aQWTXS98KAi3AxYYIzynHgEzywQtI2ksWNiOneOPWOiDyxSxwBOvEuWkQKvjXFsWCjfLJH3AnsshCcKdxxLyWSSOEfbac27K554ErjWa+zxyPinoMVjYH6buQxDuLSzol4k4B6yx33rOmR1PQ9dS+Jq17aHn/GBBt9K5HJqOsBvEGbcfossTkVMM9XLIvpVUK/qT0KSmO3CYyisGXt8GuQLh1iKCfvswq4Z8mYhH+7C10BMW8sewWZesgf3s2y4UQAR9P1SZcVrPcTpGmxwcwbjQcBztakLdjL+5Q2+oh+tqEG4FMmFmP1QY3/ShAm12/+w5TZq6yw6nnbFM9kqFHz1Cbj7KNFpB8GGccRjYMw31PPRV5LzZj+0icJ7CCQb2Y7OcaOeJclI82m97zp/BChNrZECccbcAMd33g9mdZImbXT/p++ew2d/6KDDzjLTrN6DNanO92cjiM9COM+q/k2l96rme1DHtR/Yd6gkv7zlfWsP8tRPvB9C7fVCeP/L/CvRsvi9A+uyC4Ie18Zw/z/D6/lyXPHxWJdIwmn/huX6Z6BaYMfAFD8H9zpr7JBB3xtaDHfcV6kkzF6LRBSETNscr6AFuNhKsoCOmwciM17uMgiAIgiAIgiAIgiAIgiAI94Y/APZpWvy8CvEyAAAAAElFTkSuQmCC" class="logo-style" alt=""></div></a><div class="feedback-container"><button class="MuiButtonBase-root MuiIconButton-root" tabindex="0" type="button" style="background: rgb(49, 83, 128);"><span class="MuiIconButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true" style="color: white;"><path d="M12 7.13l.97 2.29.47 1.11 1.2.1 2.47.21-1.88 1.63-.91.79.27 1.18.56 2.41-2.12-1.28-1.03-.64-1.03.62-2.12 1.28.56-2.41.27-1.18-.91-.79-1.88-1.63 2.47-.21 1.2-.1.47-1.11.97-2.27M12 2L9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2z"></path></svg></span><span class="MuiTouchRipple-root"></span></button></div></div><div class="sc-bwzfXH cfIqGp"><div id="main-top-pixel"></div><div class="transition-group"><section class="route-section fade-appear-done fade-enter-done"><div><div class="blue-background"><div class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-content-xs-center"><div class="first-section-container"><h2 class="section-title">Latest Stories</h2><div><div class="react-reveal" style="animation-fill-mode: both; animation-duration: 1200ms; animation-delay: 600ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-690962516224017-1;"><div class="MuiPaper-root card-large MuiPaper-elevation1"><a href="/panorama/stories/55" style="text-decoration: none; color: inherit;"><div class="MuiCardMedia-root jss1" style="background-image: url(&quot;/static/media/BannerImg.36b6870c7d13491178cc.jpg&quot;);"></div></a><div class="MuiGrid-root MuiGrid-container"><div class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-10"><div class="MuiGrid-root card-large-content-wrapper MuiGrid-container MuiGrid-direction-xs-column"><div class="MuiGrid-root MuiGrid-item"><span class="card-large-category">Machine Learning</span><span style="font-size: 12px; width: 4px; padding: 0px 15px; color: rgb(196, 196, 196);">♦</span><span class="card-large-time">15 min read</span></div><div class="MuiGrid-root MuiGrid-item"><h3 class="card-large-title">Meet your Workspace Ally – Correspondence Assistant</h3></div><div class="MuiGrid-root card-large-description MuiGrid-item"><p>Meet your ultimate workspace ally! We created the Correspondence Assistant to help officers at LTA craft polished replies with some AI wizardy (or not). Say goodbye to tedious response drafting!</p></div><div class="MuiGrid-root MuiGrid-item"><a href="/panorama/stories/55" style="text-decoration: none; color: inherit;"><button class="MuiButtonBase-root MuiButton-root MuiButton-text card-large-button" tabindex="0" type="button"><span class="MuiButton-label">Read More</span><span class="MuiTouchRipple-root"></span></button></a></div></div></div></div></div></div><div class="MuiGrid-root card-container"><div class="MuiGrid-root card-small-container MuiGrid-container MuiGrid-justify-content-xs-center"><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/54" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/CoverImage.ac13c729aa0aea5539cb.png&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Machine Learning</span><h4>Predicting Commuter Switches on TEL3 with Machine Learning</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/53" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/CoverImage.22e7b819348ae87837ab.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Natural Language Processing</span><h4>The future of work - ChatGPT</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/52" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/CoverImage.5b2a4328b813846c060d.png&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Geospatial Analysis</span><h4>Internship Experience Mapping Media Spaces for Insights</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/51" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/CoverImage.cb4652e68ef44a4ebd58.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Natural Language Processing</span><h4>Improving Knowledge Graph Extraction from Text</h4></div></div></div></div></div></div></div></div></div><div class="white-background"><div class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-content-xs-center"><div class="consequence-section-container"><h2 class="section-title">Our “Viral” COVID-19 Stories</h2><div class="react-reveal"><div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"><div class="MuiGrid-root our-stories-our-picks MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6"><a href="/panorama/stories/9" style="text-decoration: none; color: inherit;"><div class="MuiPaper-root our-picks-card-container our-stories-our-picks-normal-height MuiPaper-elevation1"><div class="our-picks-card-filter undefined"><div class="our-picks-description"><h4>Digitalising the COVID-19 Driver Care Fund (DCF) Application</h4></div></div><img class="MuiCardMedia-root our-picks-image undefined MuiCardMedia-media MuiCardMedia-img" src="/static/media/cardImage.04f014cde6a772cb5111.jpg"></div></a></div><div class="MuiGrid-root our-stories-our-picks MuiGrid-item MuiGrid-grid-xs-6"><a href="/panorama/stories/18" style="text-decoration: none; color: inherit;"><div class="MuiPaper-root our-picks-card-container our-stories-our-picks-reduced-height MuiPaper-elevation1"><div class="our-picks-card-filter our-stories-our-picks-landscape-right"><div class="our-picks-description"><h4>COVID-19 and Travel Patterns – Moving into Phase Two</h4></div></div><img class="MuiCardMedia-root our-picks-image our-stories-our-picks-landscape-right MuiCardMedia-media MuiCardMedia-img" src="/static/media/cardImage.2943583ccb57c243b4ba.jpg"></div></a><a href="/panorama/stories/19" style="text-decoration: none; color: inherit;"><div class="MuiPaper-root our-picks-card-container our-stories-our-picks-reduced-height MuiPaper-elevation1"><div class="our-picks-card-filter our-stories-our-picks-landscape-right"><div class="our-picks-description"><h4>The Invisible Battle with COVID-19: Mask Detection with Density-based Clustering</h4></div></div><img class="MuiCardMedia-root our-picks-image our-stories-our-picks-landscape-right MuiCardMedia-media MuiCardMedia-img" src="/static/media/cardImage.85f1fe208866ab6a92c0.jpg"></div></a></div></div></div></div></div></div><div class="blue-background"><div class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-content-xs-center"><div class="consequence-section-container"><h2 class="section-title">A Day In The Life of a...</h2><div class="react-reveal"><div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-align-items-xs-center"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-4"><a href="/panorama/stories/12" style="text-decoration: none; color: inherit;"><div class="MuiPaper-root our-picks-card-container our-stories-dayInTheLife MuiPaper-elevation1"><div class="dayInTheLife-card-filter undefined"><div class="our-picks-description"><h4>Data Engineer</h4></div></div><img class="MuiCardMedia-root our-picks-image-dayInTheLife undefined MuiCardMedia-media MuiCardMedia-img" src="/static/media/cardImage.03827e3c0a90ab25e5a6.jpg"></div></a></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-4"><a href="/panorama/stories/13" style="text-decoration: none; color: inherit;"><div class="MuiPaper-root our-picks-card-container our-stories-dayInTheLife MuiPaper-elevation1"><div class="dayInTheLife-card-filter undefined"><div class="our-picks-description"><h4>Data Scientist</h4></div></div><img class="MuiCardMedia-root our-picks-image-dayInTheLife undefined MuiCardMedia-media MuiCardMedia-img" src="/static/media/cardImage.5c3c5916b41bf0d2d540.jpg"></div></a></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-4"><a href="/panorama/stories/14" style="text-decoration: none; color: inherit;"><div class="MuiPaper-root our-picks-card-container our-stories-dayInTheLife MuiPaper-elevation1"><div class="dayInTheLife-card-filter undefined"><div class="our-picks-description"><h4>Software Engineer</h4></div></div><img class="MuiCardMedia-root our-picks-image-dayInTheLife undefined MuiCardMedia-media MuiCardMedia-img" src="/static/media/cardImage.a9f4589512d714dd7cc0.jpg"></div></a></div></div></div></div></div></div><div class="white-background"><div class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-content-xs-center"><div class="consequence-section-container"><h2 class="section-title">All Stories</h2><div class="MuiGrid-root card-container"><div class="MuiGrid-root card-small-container wrap MuiGrid-container MuiGrid-justify-content-xs-center"><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/55" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/BannerImg.36b6870c7d13491178cc.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Machine Learning</span><h4>Meet your Workspace Ally – Correspondence Assistant</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/54" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/CoverImage.ac13c729aa0aea5539cb.png&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Machine Learning</span><h4>Predicting Commuter Switches on TEL3 with Machine Learning</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/53" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/CoverImage.22e7b819348ae87837ab.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Natural Language Processing</span><h4>The future of work - ChatGPT</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/52" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/CoverImage.5b2a4328b813846c060d.png&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Geospatial Analysis</span><h4>Internship Experience Mapping Media Spaces for Insights</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/51" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/CoverImage.cb4652e68ef44a4ebd58.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Natural Language Processing</span><h4>Improving Knowledge Graph Extraction from Text</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/50" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/CoverImage.cdfa03f528b303ed9726.png&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Machine Learning</span><h4>Journey to Detect: Exploring Object Detection Model Pipelines</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/49" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/CoverImage.f911b11a7b32ba5e847d.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Visual Analytics</span><h4>D3 Project: Preprocessing for Video Analytics</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/47" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/CoverImage.aa4fb0fa8cb6f5f92740.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Machine Vision</span><h4>Using Genetics for Video Analytics Good</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/46" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/CoverImage.e8c20e7644007e96522e.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Machine Learning</span><h4>Internship Experience: A Journey into Reinforcement Learning</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/45" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/CoverImage.087815833f58b35ea9c2.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Data Engineering</span><h4>Deriving Bus Speed that is Closer to Ground Experience</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/44" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/CoverImage.b8f36d82c448b53f1399.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Visual Analytics</span><h4>Understanding student home-to-school travel using interactive visuals</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/43" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/CoverImage.5ace54fad0ceae9583f6.jpeg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Natural Language Processing</span><h4>An Industry Capstone - Experimenting with AI Chatbot</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/42" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/CoverImage.141b77410e1e0a8888bb.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Statistical Analysis</span><h4>How accessible are schools for our students using Public Transport?</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/41" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.377f12f06b4f784749b7.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Machine Learning</span><h4>Automating Vehicle Detection to Sense Throughput</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/40" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.7ffc671239ce1ede5d24.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Machine Learning</span><h4>Well, Colour me Surprised!</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/39" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.1af24a833ec701fba841.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Machine Learning</span><h4>Survival of Lamp Post for Smarter Maintenance</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/38" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.815bd442bfe458b3aa25.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Natural Language Processing</span><h4>Teaching computers the language of our people</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/33" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.2d9855d9a5ad9c97d581.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Machine Learning</span><h4>Geotechnical Analysis</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/31" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.dc0a8ce7beb164dadc11.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Internet of Things</span><h4>Internship Experience: Gateway To A Smart Office System</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/37" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.c2b0fa4437483092e9db.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Machine Learning</span><h4>Our Streets through Different Lens - Towards Automating Road Defect Detection</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/36" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.010bfede79c921e24d1a.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Natural Language Processing</span><h4>Beyond Humans Language Competencies</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/35" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.450fd7899e750062a2ee.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Data Engineering</span><h4>Ready for analysis?</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/5" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.e61b73e1171543716495.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Geospatial Analysis</span><h4>Chasing Rain Tracing Taxis</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/34" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.b8108407e72cc26563e7.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Machine Learning</span><h4>Who is likely to switch to TEL2?</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/32" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.6187cf24b00c4246445a.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Graph Theory</span><h4>Towards Rail Resilience through Quantitative Graph Theory</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/30" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.ef9e42db1e047bfa11ef.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Machine Learning</span><h4>Mobility Sensing</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/26" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.d169090759248fb482cf.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Artificial Intelligence</span><h4>An Exploration of Quantum Computing - Making the Quantum Leap</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/29" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.d60d0c9b54f47c1a6e06.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Visual Analytics</span><h4>COVID-19 - Impact on the P2P Industry and Commuter Travel Patterns</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/28" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.4798f8397c438d4dee7b.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Machine Learning</span><h4>Internship Experience: Revealing a Commuter's Trip Intent</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/27" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.478967e4e44d9b5fa6ed.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Visual Analytics</span><h4>Ensuing voyage into Data Arcade 2020 - Landlubber to Old-Salt</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/23" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.db8b0bb11d39f1c13342.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Natural Language</span><h4>Internship Experience: Knowledge Graphs for Virtual Assistants</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/22" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.c3ca23590fe6ae64f726.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Machine Learning</span><h4>Commuter Segmentation using Fare Card Data</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/20" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.ba17c6ffc0b43276351e.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Machine Vision</span><h4>What A Human Pose Can Tell Us In AI</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/19" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.85f1fe208866ab6a92c0.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Machine Learning</span><h4>The Invisible Battle with COVID-19: Mask Detection with Density-based Clustering</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/15" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.3d7bf2ac84ae79c57547.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Visual Analytics</span><h4>An Add-on Station with Add-on Convenience</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/18" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.2943583ccb57c243b4ba.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Geospatial Analysis</span><h4>COVID-19 and Travel Patterns – Moving into Phase Two</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/17" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.b4493713c7b4a49d2fbc.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Geospatial Analysis</span><h4>Stevens MRT + Underpass = More Students?</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/16" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.8d9c5ae118fbe67c7da0.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Time Series Analysis</span><h4>Internship Experience: When Pressure is more than just a Force</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/11" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.252c58af92f9e9cc6c6e.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Visual Analytics</span><h4>Our Expedition to the 2019 Data Arcade Tournament</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/8" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.25e9b2daca12652a8bdb.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Geospatial Analysis</span><h4>Increasing Convenience for SG’s Northlanders</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/9" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.04f014cde6a772cb5111.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Software Engineering</span><h4>Digitalising the COVID-19 Driver Care Fund (DCF) Application</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/7" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.0bd094e52baf00463d3c.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Machine Learning</span><h4>COVID-19 on Transportation, A Home &amp; Work Inference Perspective</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/6" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.a2e768705563862a7cf6.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Machine Learning</span><h4>Figuring Out Travel Intent Starting with Where We Live and Work</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/4" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.4a951adb7362a9ec71ee.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Statistical Analysis</span><h4>Firing Up Analysis of Vehicle's Fire Risk</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/3" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.a766873d27ba345a9a15.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Machine Learning</span><h4>Deciphering Patterns Detecting Train Anomalies</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/2" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.65b3e77daf2baecb0936.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Machine Vision</span><h4>Bird's Eye View on the Road</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/1" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.af730d1edb1cc28b0fb5.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>Software Engineering</span><h4>A Nimble Approach Towards Digitalising Bike Share Enforcement</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/12" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.03827e3c0a90ab25e5a6.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>About Panorama</span><h4>A Day in the Life of a Data Engineer</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/13" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.5c3c5916b41bf0d2d540.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>About Panorama</span><h4>A Day in the Life of a Data Scientist</h4></div></div></div><div class="react-reveal"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-overlay"><a href="/panorama/stories/14" style="text-decoration: none; color: inherit;"><font style="color: white;"> Read Article </font></a></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.a9f4589512d714dd7cc0.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>About Panorama</span><h4>A Day in the Life of a Software Engineer</h4></div></div></div><div class="react-reveal stories-coming-soon-card"><div class="MuiPaper-root card-small MuiPaper-elevation1"><div class="link-comingsoon"><span>Coming Soon</span></div><div class="card-media" style="height: 228px; width: 100%; background-image: url(&quot;/static/media/cardImage.dc0a8ce7beb164dadc11.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div><div class="card-small-content-wrapper"><span>DevOps</span><h4>Internship Experience: Smart Meeting Assistant using IoT</h4></div></div></div></div></div></div></div></div><div class=" footer-section-container-basic"><div class="footer-section-content"><a href="mailto:lta_dataspeaks@lta.gov.sg" style="text-decoration: none; color: inherit;"><div class="footer-section-description">Have a question? Some feedback? Or just want to chat?<br><br></div><div style="left: 40%;"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined" tabindex="0" type="button" style="font-family: Montserrat; font-weight: 400; font-size: 17px; border-radius: 25px; color: rgb(57, 184, 186); border: 1px solid rgb(57, 184, 186); padding-left: 20px; padding-right: 20px;"><span class="MuiButton-label">DROP US A MESSAGE</span><span class="MuiTouchRipple-root"></span></button><br><br><br></div></a><div class="footer-copyrights">a Digital Lab initiative | © ITCD Data Science Division</div></div></div></div></section></div></div></div><div style="position: fixed; bottom: 10px; right: 20px; color: whitesmoke; pointer-events: none; opacity: 0.4; z-index: 99999;"><p class="MuiTypography-root MuiTypography-body1">v0.1.25</p></div></div></div><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-1MF3XRX52W"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-1MF3XRX52W")</script></body></html>

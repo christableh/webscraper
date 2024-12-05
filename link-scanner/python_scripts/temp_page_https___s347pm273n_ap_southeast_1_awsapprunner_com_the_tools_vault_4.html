@@ -1,0 +1,1135 @@
+<html lang="en"><head><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta charset="utf-8"><link rel="icon" href="/favicon.ico"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#000000"><meta name="Panorama" content="Panorama"><link rel="apple-touch-icon" href="logo192.png"><link rel="manifest" href="/manifest.json"><style>body{margin:0}</style><title>Panorama</title><script async="" src="https://digiwork-lta.net/matomo/matomo.js"></script><script>console.log("load matomo"),console.log("load matomo ID","1");var _paq=window._paq=window._paq||[];_paq.push(["trackPageView"]),_paq.push(["enableLinkTracking"]),function(){var a="https://digiwork-lta.net/matomo/";_paq.push(["setTrackerUrl",a+"matomo.php"]),_paq.push(["setSiteId","1"]);var e=document,o=e.createElement("script"),t=e.getElementsByTagName("script")[0];o.async=!0,o.src=a+"matomo.js",t.parentNode.insertBefore(o,t)}()</script><script defer="defer" src="/static/js/main.3e4ea91b.js"></script><link href="/static/css/main.291c3d71.css" rel="stylesheet"><style></style><style data-styled="" data-styled-version="4.4.1"></style><style id="_goober"> @keyframes go2264125279{from{transform:scale(0) rotate(45deg);opacity:0;}to{transform:scale(1) rotate(45deg);opacity:1;}}@keyframes go3020080000{from{transform:scale(0);opacity:0;}to{transform:scale(1);opacity:1;}}@keyframes go463499852{from{transform:scale(0) rotate(90deg);opacity:0;}to{transform:scale(1) rotate(90deg);opacity:1;}}@keyframes go1268368563{from{transform:rotate(0deg);}to{transform:rotate(360deg);}}@keyframes go1310225428{from{transform:scale(0) rotate(45deg);opacity:0;}to{transform:scale(1) rotate(45deg);opacity:1;}}@keyframes go651618207{0%{height:0;width:0;opacity:0;}40%{height:0;width:6px;opacity:1;}100%{opacity:1;height:10px;}}@keyframes go901347462{from{transform:scale(0.6);opacity:0.4;}to{transform:scale(1);opacity:1;}}.go4109123758{z-index:9999;}.go4109123758 > *{pointer-events:auto;}</style><style data-jss="" data-meta="MuiTouchRipple">
+.MuiTouchRipple-root {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  overflow: hidden;
+  position: absolute;
+  border-radius: inherit;
+  pointer-events: none;
+}
+.MuiTouchRipple-ripple {
+  opacity: 0;
+  position: absolute;
+}
+.MuiTouchRipple-rippleVisible {
+  opacity: 0.3;
+  animation: MuiTouchRipple-keyframes-enter 550ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(1);
+}
+.MuiTouchRipple-ripplePulsate {
+  animation-duration: 200ms;
+}
+.MuiTouchRipple-child {
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 1;
+  border-radius: 50%;
+  background-color: currentColor;
+}
+.MuiTouchRipple-childLeaving {
+  opacity: 0;
+  animation: MuiTouchRipple-keyframes-exit 550ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.MuiTouchRipple-childPulsate {
+  top: 0;
+  left: 0;
+  position: absolute;
+  animation: MuiTouchRipple-keyframes-pulsate 2500ms cubic-bezier(0.4, 0, 0.2, 1) 200ms infinite;
+}
+@-webkit-keyframes MuiTouchRipple-keyframes-enter {
+  0% {
+    opacity: 0.1;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes MuiTouchRipple-keyframes-exit {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes MuiTouchRipple-keyframes-pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.92);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+</style><style data-jss="" data-meta="MuiButtonBase">
+.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiButtonBase-root::-moz-focus-inner {
+  border-style: none;
+}
+.MuiButtonBase-root.Mui-disabled {
+  cursor: default;
+  pointer-events: none;
+}
+@media print {
+  .MuiButtonBase-root {
+    -webkit-print-color-adjust: exact;
+  }
+}
+</style><style data-jss="" data-meta="MuiIconButton">
+.MuiIconButton-root {
+  flex: 0 0 auto;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 12px;
+  overflow: visible;
+  font-size: 1.5rem;
+  text-align: center;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 50%;
+}
+.MuiIconButton-root:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.MuiIconButton-root.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+  background-color: transparent;
+}
+@media (hover: none) {
+  .MuiIconButton-root:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-edgeStart {
+  margin-left: -12px;
+}
+.MuiIconButton-sizeSmall.MuiIconButton-edgeStart {
+  margin-left: -3px;
+}
+.MuiIconButton-edgeEnd {
+  margin-right: -12px;
+}
+.MuiIconButton-sizeSmall.MuiIconButton-edgeEnd {
+  margin-right: -3px;
+}
+.MuiIconButton-colorInherit {
+  color: inherit;
+}
+.MuiIconButton-colorPrimary {
+  color: #3f51b5;
+}
+.MuiIconButton-colorPrimary:hover {
+  background-color: rgba(63, 81, 181, 0.04);
+}
+@media (hover: none) {
+  .MuiIconButton-colorPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-colorSecondary {
+  color: #f50057;
+}
+.MuiIconButton-colorSecondary:hover {
+  background-color: rgba(245, 0, 87, 0.04);
+}
+@media (hover: none) {
+  .MuiIconButton-colorSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-sizeSmall {
+  padding: 3px;
+  font-size: 1.125rem;
+}
+.MuiIconButton-label {
+  width: 100%;
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
+}
+</style><style data-jss="" data-meta="MuiDrawer">
+.MuiDrawer-docked {
+  flex: 0 0 auto;
+}
+.MuiDrawer-paper {
+  top: 0;
+  flex: 1 0 auto;
+  height: 100%;
+  display: flex;
+  outline: 0;
+  z-index: 1200;
+  position: fixed;
+  overflow-y: auto;
+  flex-direction: column;
+  -webkit-overflow-scrolling: touch;
+}
+.MuiDrawer-paperAnchorLeft {
+  left: 0;
+  right: auto;
+}
+.MuiDrawer-paperAnchorRight {
+  left: auto;
+  right: 0;
+}
+.MuiDrawer-paperAnchorTop {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: auto;
+  height: auto;
+  max-height: 100%;
+}
+.MuiDrawer-paperAnchorBottom {
+  top: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: auto;
+  max-height: 100%;
+}
+.MuiDrawer-paperAnchorDockedLeft {
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+.MuiDrawer-paperAnchorDockedTop {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.MuiDrawer-paperAnchorDockedRight {
+  border-left: 1px solid rgba(0, 0, 0, 0.12);
+}
+.MuiDrawer-paperAnchorDockedBottom {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+</style><style data-jss="" data-meta="MuiTypography">
+.MuiTypography-root {
+  margin: 0;
+}
+.MuiTypography-body2 {
+  font-size: 1em;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  line-height: 1.43;
+}
+.MuiTypography-body1 {
+  font-size: 0.75em;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.MuiTypography-caption {
+  font-size: 0.75rem;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  line-height: 1.66;
+}
+.MuiTypography-button {
+  font-size: 0.875rem;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
+  line-height: 1.75;
+  text-transform: uppercase;
+}
+.MuiTypography-h1 {
+  font-size: 6rem;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 1.167;
+}
+.MuiTypography-h2 {
+  font-size: 2.5em;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.MuiTypography-h3 {
+  font-size: 3rem;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  line-height: 1.167;
+}
+.MuiTypography-h4 {
+  font-size: 2.125rem;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  line-height: 1.235;
+}
+.MuiTypography-h5 {
+  font-size: 1.5rem;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  line-height: 1.334;
+}
+.MuiTypography-h6 {
+  font-size: 1.8em;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
+  line-height: 1.6;
+}
+.MuiTypography-subtitle1 {
+  font-size: 1.1em;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  line-height: 1.75;
+}
+.MuiTypography-subtitle2 {
+  font-size: 0.93em;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
+  line-height: 1.57;
+}
+.MuiTypography-overline {
+  font-size: 0.75rem;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  line-height: 2.66;
+  text-transform: uppercase;
+}
+.MuiTypography-srOnly {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+.MuiTypography-alignLeft {
+  text-align: left;
+}
+.MuiTypography-alignCenter {
+  text-align: center;
+}
+.MuiTypography-alignRight {
+  text-align: right;
+}
+.MuiTypography-alignJustify {
+  text-align: justify;
+}
+.MuiTypography-noWrap {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.MuiTypography-gutterBottom {
+  margin-bottom: 0.35em;
+}
+.MuiTypography-paragraph {
+  margin-bottom: 16px;
+}
+.MuiTypography-colorInherit {
+  color: inherit;
+}
+.MuiTypography-colorPrimary {
+  color: #3f51b5;
+}
+.MuiTypography-colorSecondary {
+  color: #f50057;
+}
+.MuiTypography-colorTextPrimary {
+  color: rgba(0, 0, 0, 0.87);
+}
+.MuiTypography-colorTextSecondary {
+  color: rgba(0, 0, 0, 0.54);
+}
+.MuiTypography-colorError {
+  color: #f44336;
+}
+.MuiTypography-displayInline {
+  display: inline;
+}
+.MuiTypography-displayBlock {
+  display: block;
+}
+</style><style data-jss="" data-meta="MuiSvgIcon">
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+.MuiSvgIcon-colorPrimary {
+  color: #3f51b5;
+}
+.MuiSvgIcon-colorSecondary {
+  color: #f50057;
+}
+.MuiSvgIcon-colorAction {
+  color: rgba(0, 0, 0, 0.54);
+}
+.MuiSvgIcon-colorError {
+  color: #f44336;
+}
+.MuiSvgIcon-colorDisabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+.MuiSvgIcon-fontSizeInherit {
+  font-size: inherit;
+}
+.MuiSvgIcon-fontSizeSmall {
+  font-size: 1.25rem;
+}
+.MuiSvgIcon-fontSizeLarge {
+  font-size: 2.1875rem;
+}
+</style><style data-jss="" data-meta="MuiBox">
+
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiButton">
+.MuiButton-root {
+  color: rgba(0, 0, 0, 0.87);
+  padding: 6px 16px;
+  font-size: 0.875rem;
+  min-width: 64px;
+  box-sizing: border-box;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-family: "Montserrat","Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
+  line-height: 1.75;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+.MuiButton-root:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.MuiButton-root.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+@media (hover: none) {
+  .MuiButton-root:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-root:hover.Mui-disabled {
+  background-color: transparent;
+}
+.MuiButton-label {
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+}
+.MuiButton-text {
+  padding: 6px 8px;
+}
+.MuiButton-textPrimary {
+  color: #3f51b5;
+}
+.MuiButton-textPrimary:hover {
+  background-color: rgba(63, 81, 181, 0.04);
+}
+@media (hover: none) {
+  .MuiButton-textPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-textSecondary {
+  color: #f50057;
+}
+.MuiButton-textSecondary:hover {
+  background-color: rgba(245, 0, 87, 0.04);
+}
+@media (hover: none) {
+  .MuiButton-textSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-outlined {
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  padding: 5px 15px;
+}
+.MuiButton-outlined.Mui-disabled {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.MuiButton-outlinedPrimary {
+  color: #3f51b5;
+  border: 1px solid rgba(63, 81, 181, 0.5);
+}
+.MuiButton-outlinedPrimary:hover {
+  border: 1px solid #3f51b5;
+  background-color: rgba(63, 81, 181, 0.04);
+}
+@media (hover: none) {
+  .MuiButton-outlinedPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-outlinedSecondary {
+  color: #f50057;
+  border: 1px solid rgba(245, 0, 87, 0.5);
+}
+.MuiButton-outlinedSecondary:hover {
+  border: 1px solid #f50057;
+  background-color: rgba(245, 0, 87, 0.04);
+}
+.MuiButton-outlinedSecondary.Mui-disabled {
+  border: 1px solid rgba(0, 0, 0, 0.26);
+}
+@media (hover: none) {
+  .MuiButton-outlinedSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-contained {
+  color: rgba(0, 0, 0, 0.87);
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+  background-color: #e0e0e0;
+}
+.MuiButton-contained:hover {
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+  background-color: #d5d5d5;
+}
+.MuiButton-contained.Mui-focusVisible {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+.MuiButton-contained:active {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+.MuiButton-contained.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+@media (hover: none) {
+  .MuiButton-contained:hover {
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+    background-color: #e0e0e0;
+  }
+}
+.MuiButton-contained:hover.Mui-disabled {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.MuiButton-containedPrimary {
+  color: #fff;
+  background-color: #3f51b5;
+}
+.MuiButton-containedPrimary:hover {
+  background-color: #303f9f;
+}
+@media (hover: none) {
+  .MuiButton-containedPrimary:hover {
+    background-color: #3f51b5;
+  }
+}
+.MuiButton-containedSecondary {
+  color: #fff;
+  background-color: #f50057;
+}
+.MuiButton-containedSecondary:hover {
+  background-color: #c51162;
+}
+@media (hover: none) {
+  .MuiButton-containedSecondary:hover {
+    background-color: #f50057;
+  }
+}
+.MuiButton-disableElevation {
+  box-shadow: none;
+}
+.MuiButton-disableElevation:hover {
+  box-shadow: none;
+}
+.MuiButton-disableElevation.Mui-focusVisible {
+  box-shadow: none;
+}
+.MuiButton-disableElevation:active {
+  box-shadow: none;
+}
+.MuiButton-disableElevation.Mui-disabled {
+  box-shadow: none;
+}
+.MuiButton-colorInherit {
+  color: inherit;
+  border-color: currentColor;
+}
+.MuiButton-textSizeSmall {
+  padding: 4px 5px;
+  font-size: 0.8125rem;
+}
+.MuiButton-textSizeLarge {
+  padding: 8px 11px;
+  font-size: 0.9375rem;
+}
+.MuiButton-outlinedSizeSmall {
+  padding: 3px 9px;
+  font-size: 0.8125rem;
+}
+.MuiButton-outlinedSizeLarge {
+  padding: 7px 21px;
+  font-size: 0.9375rem;
+}
+.MuiButton-containedSizeSmall {
+  padding: 4px 10px;
+  font-size: 0.8125rem;
+}
+.MuiButton-containedSizeLarge {
+  padding: 8px 22px;
+  font-size: 0.9375rem;
+}
+.MuiButton-fullWidth {
+  width: 100%;
+}
+.MuiButton-startIcon {
+  display: inherit;
+  margin-left: -4px;
+  margin-right: 8px;
+}
+.MuiButton-startIcon.MuiButton-iconSizeSmall {
+  margin-left: -2px;
+}
+.MuiButton-endIcon {
+  display: inherit;
+  margin-left: 8px;
+  margin-right: -4px;
+}
+.MuiButton-endIcon.MuiButton-iconSizeSmall {
+  margin-right: -2px;
+}
+.MuiButton-iconSizeSmall > *:first-child {
+  font-size: 18px;
+}
+.MuiButton-iconSizeMedium > *:first-child {
+  font-size: 20px;
+}
+.MuiButton-iconSizeLarge > *:first-child {
+  font-size: 22px;
+}
+</style><style data-jss="" data-meta="MuiGrid">
+.MuiGrid-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.MuiGrid-item {
+  margin: 0;
+  box-sizing: border-box;
+}
+.MuiGrid-zeroMinWidth {
+  min-width: 0;
+}
+.MuiGrid-direction-xs-column {
+  flex-direction: column;
+}
+.MuiGrid-direction-xs-column-reverse {
+  flex-direction: column-reverse;
+}
+.MuiGrid-direction-xs-row-reverse {
+  flex-direction: row-reverse;
+}
+.MuiGrid-wrap-xs-nowrap {
+  flex-wrap: nowrap;
+}
+.MuiGrid-wrap-xs-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+.MuiGrid-align-items-xs-center {
+  align-items: center;
+}
+.MuiGrid-align-items-xs-flex-start {
+  align-items: flex-start;
+}
+.MuiGrid-align-items-xs-flex-end {
+  align-items: flex-end;
+}
+.MuiGrid-align-items-xs-baseline {
+  align-items: baseline;
+}
+.MuiGrid-align-content-xs-center {
+  align-content: center;
+}
+.MuiGrid-align-content-xs-flex-start {
+  align-content: flex-start;
+}
+.MuiGrid-align-content-xs-flex-end {
+  align-content: flex-end;
+}
+.MuiGrid-align-content-xs-space-between {
+  align-content: space-between;
+}
+.MuiGrid-align-content-xs-space-around {
+  align-content: space-around;
+}
+.MuiGrid-justify-content-xs-center {
+  justify-content: center;
+}
+.MuiGrid-justify-content-xs-flex-end {
+  justify-content: flex-end;
+}
+.MuiGrid-justify-content-xs-space-between {
+  justify-content: space-between;
+}
+.MuiGrid-justify-content-xs-space-around {
+  justify-content: space-around;
+}
+.MuiGrid-justify-content-xs-space-evenly {
+  justify-content: space-evenly;
+}
+.MuiGrid-spacing-xs-1 {
+  width: calc(100% + 8px);
+  margin: -4px;
+}
+.MuiGrid-spacing-xs-1 > .MuiGrid-item {
+  padding: 4px;
+}
+.MuiGrid-spacing-xs-2 {
+  width: calc(100% + 16px);
+  margin: -8px;
+}
+.MuiGrid-spacing-xs-2 > .MuiGrid-item {
+  padding: 8px;
+}
+.MuiGrid-spacing-xs-3 {
+  width: calc(100% + 24px);
+  margin: -12px;
+}
+.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+  padding: 12px;
+}
+.MuiGrid-spacing-xs-4 {
+  width: calc(100% + 32px);
+  margin: -16px;
+}
+.MuiGrid-spacing-xs-4 > .MuiGrid-item {
+  padding: 16px;
+}
+.MuiGrid-spacing-xs-5 {
+  width: calc(100% + 40px);
+  margin: -20px;
+}
+.MuiGrid-spacing-xs-5 > .MuiGrid-item {
+  padding: 20px;
+}
+.MuiGrid-spacing-xs-6 {
+  width: calc(100% + 48px);
+  margin: -24px;
+}
+.MuiGrid-spacing-xs-6 > .MuiGrid-item {
+  padding: 24px;
+}
+.MuiGrid-spacing-xs-7 {
+  width: calc(100% + 56px);
+  margin: -28px;
+}
+.MuiGrid-spacing-xs-7 > .MuiGrid-item {
+  padding: 28px;
+}
+.MuiGrid-spacing-xs-8 {
+  width: calc(100% + 64px);
+  margin: -32px;
+}
+.MuiGrid-spacing-xs-8 > .MuiGrid-item {
+  padding: 32px;
+}
+.MuiGrid-spacing-xs-9 {
+  width: calc(100% + 72px);
+  margin: -36px;
+}
+.MuiGrid-spacing-xs-9 > .MuiGrid-item {
+  padding: 36px;
+}
+.MuiGrid-spacing-xs-10 {
+  width: calc(100% + 80px);
+  margin: -40px;
+}
+.MuiGrid-spacing-xs-10 > .MuiGrid-item {
+  padding: 40px;
+}
+.MuiGrid-grid-xs-auto {
+  flex-grow: 0;
+  max-width: none;
+  flex-basis: auto;
+}
+.MuiGrid-grid-xs-true {
+  flex-grow: 1;
+  max-width: 100%;
+  flex-basis: 0;
+}
+.MuiGrid-grid-xs-1 {
+  flex-grow: 0;
+  max-width: 8.333333%;
+  flex-basis: 8.333333%;
+}
+.MuiGrid-grid-xs-2 {
+  flex-grow: 0;
+  max-width: 16.666667%;
+  flex-basis: 16.666667%;
+}
+.MuiGrid-grid-xs-3 {
+  flex-grow: 0;
+  max-width: 25%;
+  flex-basis: 25%;
+}
+.MuiGrid-grid-xs-4 {
+  flex-grow: 0;
+  max-width: 33.333333%;
+  flex-basis: 33.333333%;
+}
+.MuiGrid-grid-xs-5 {
+  flex-grow: 0;
+  max-width: 41.666667%;
+  flex-basis: 41.666667%;
+}
+.MuiGrid-grid-xs-6 {
+  flex-grow: 0;
+  max-width: 50%;
+  flex-basis: 50%;
+}
+.MuiGrid-grid-xs-7 {
+  flex-grow: 0;
+  max-width: 58.333333%;
+  flex-basis: 58.333333%;
+}
+.MuiGrid-grid-xs-8 {
+  flex-grow: 0;
+  max-width: 66.666667%;
+  flex-basis: 66.666667%;
+}
+.MuiGrid-grid-xs-9 {
+  flex-grow: 0;
+  max-width: 75%;
+  flex-basis: 75%;
+}
+.MuiGrid-grid-xs-10 {
+  flex-grow: 0;
+  max-width: 83.333333%;
+  flex-basis: 83.333333%;
+}
+.MuiGrid-grid-xs-11 {
+  flex-grow: 0;
+  max-width: 91.666667%;
+  flex-basis: 91.666667%;
+}
+.MuiGrid-grid-xs-12 {
+  flex-grow: 0;
+  max-width: 100%;
+  flex-basis: 100%;
+}
+@media (min-width:600px) {
+  .MuiGrid-grid-sm-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-sm-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-sm-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-sm-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-sm-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-sm-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-sm-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-sm-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-sm-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-sm-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-sm-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-sm-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-sm-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-sm-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:960px) {
+  .MuiGrid-grid-md-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-md-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-md-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-md-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-md-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-md-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-md-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-md-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-md-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-md-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-md-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-md-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-md-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-md-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:1280px) {
+  .MuiGrid-grid-lg-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-lg-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-lg-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-lg-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-lg-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-lg-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-lg-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-lg-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-lg-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-lg-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-lg-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-lg-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-lg-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-lg-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:1920px) {
+  .MuiGrid-grid-xl-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-xl-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-xl-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-xl-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-xl-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-xl-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-xl-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-xl-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-xl-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-xl-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-xl-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-xl-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-xl-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-xl-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss1 {
+  background:  linear-gradient(
+      180deg,
+      #325380 25.77%,
+      #0a1d37 99.98%,
+      #0a1d37 100%
+    );
+}
+</style></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"><div><div class=""><div><div class="ham-burger-button"><div style="display: flex; flex-direction: row; align-items: center;"><button class="MuiButtonBase-root MuiIconButton-root" tabindex="0" type="button" aria-label="delete" style="background: rgb(49, 83, 128);"><span class="MuiIconButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true" style="color: white;"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg></span><span class="MuiTouchRipple-root"></span></button><p class="hamburger-title" style="color: rgb(49, 83, 128);">Tools Vault</p></div></div><a href="/"><div class="logo-center"><img src="data:image/png;base64,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" class="logo-style" alt=""></div></a><div class="feedback-container"><button class="MuiButtonBase-root MuiIconButton-root" tabindex="0" type="button" style="background: rgb(49, 83, 128);"><span class="MuiIconButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true" style="color: white;"><path d="M12 7.13l.97 2.29.47 1.11 1.2.1 2.47.21-1.88 1.63-.91.79.27 1.18.56 2.41-2.12-1.28-1.03-.64-1.03.62-2.12 1.28.56-2.41.27-1.18-.91-.79-1.88-1.63 2.47-.21 1.2-.1.47-1.11.97-2.27M12 2L9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2z"></path></svg></span><span class="MuiTouchRipple-root"></span></button></div></div><div class="sc-bwzfXH cfIqGp"><div id="main-top-pixel"></div><div class="transition-group"><section class="route-section fade-appear-done fade-enter-done"><div class="our-resources-container"><div class="MuiGrid-root jss1 MuiGrid-container"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"><div class="MuiBox-root jss2"><div class="react-reveal" style="animation-fill-mode: both; animation-duration: 2000ms; animation-delay: 400ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-180430049325887-1;"><div class="MuiTypography-root MuiTypography-h2"><div class="MuiBox-root jss3">TOOLS VAULT</div></div></div><div class="react-reveal" style="animation-fill-mode: both; animation-duration: 2000ms; animation-delay: 400ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-180430049325887-2;"><div class="MuiBox-root jss4"></div></div><div class="react-reveal" style="animation-fill-mode: both; animation-duration: 2000ms; animation-delay: 400ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-180430049325887-2;"><h6 class="MuiTypography-root MuiTypography-subtitle1"><div class="MuiBox-root jss5">Power up with our specially curated resources, featuring in-house developed tools</div><div class="MuiBox-root jss6">and content from industry experts</div></h6></div></div></div></div><div class="our-resources-grids-container"><div class="TOOLKITS-VISUALS-RESOURCES">CHATBOTS</div><div><div class="MuiGrid-root our-resources-grids-inner-container MuiGrid-container MuiGrid-spacing-xs-3"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-3 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"><div><div role="link"><div class="our-resources-card-v2 container" style="background: rgb(231, 194, 125);"><img src="/static/media/cardImg.dc194906b781a5d276ec.png" class="card-image" alt="" style="width: 100%;"><div class="our-resource-sky-blue background-colour card-hover-animation"></div><div class="card-icon-wrapper content-hover-animation"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE4AAABOCAYAAACOqiAdAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMNSURBVHgB7Zv/cdMwFMdfOP6nG+ARygSYCVomaDcgTICZgDBBmwnaTtCwQZjAYYKUCR7vncSd4yiJJVm2lX4/d7o0Tm1Jn1jP+hUiAAAAAAAAAAAAgNfMjHqCmS/k5VLStaT3ki5oGrxI+iPpcTabragnosVZYV8kzWk6sg6xkXQvaSkSNzQWIq2UVHN+1JJKGgPJ+Ibz54YCCWqqkqHGsQfHRxpPlpLWZJrFFNDwoeX9KKlwfP5Zmu0jpUakFexungs28W6ySPkqR7m3WidKjWRy78j8ljJBy+oo/x2lxN5tbSrKDCnz3FGPdK3FkWFNmSJlf27VZe5z/hvy46r1/jvly1Pr/RWlwgbSJpeUKY6w49V6vLojevWdkwXKmJj6+DZVYBlFnDZxSQ/aDeCAPpRtZnc2wE8/XLSf3xQI73agn8kT3n0ibkO7EjH1GfyOs3dY0TgUUumidf7gI5bBxdnpnGXj0BP587P596hTRF3oq6naa5UcMUa0cS4qvsXUB92RBuiODADEBQJxgUBcIBAXCMQFAnGBYJA/BH2NHFqD/NpHHu+vso0yyB88I3Yv+CjfjglUOfZ/to5zBxc3ypBLLnMvL4dW0XVx+BeZxW1FpehicknuWRAd5HsttDTKMcwQMuYbclxrwfEsKII+6zNoRmwWh2v2R5tr0F3Wyj9PcfaaGvPmHQWqsIp7WDxmEzOD6zOpaSU2XYuSzAzvO3v4L5kNPCvJbk09wWabV3Pafi3X/0ApiPmGpgbv74FJt3/kXMSxu0t0Tak4B3E2ttWtqqTdA5O7OHunrR132y2lJFdxfHzUERTbkj9V2QyjftB4O9ILcm9hVX5LKqUaL+TJW0qIlaaP/IKmx4rM/l9vaUqyaaUJS1NRX0XYp1BpSpI7bqLSVmQmDxYxwv7Tu7gj0nTbQvpt8fuopE0fsoI59VTlw1v5K3rNHBMHaUc4JA7STuASB2kdcMiBtC44BEFaF/g0FYF9IC0QSAsE0gLh/fmsisBpePcXxhWB7rDZaZTtrwYBAAAAAM6Ef7Yin9A1HiEwAAAAAElFTkSuQmCC" alt=""></div><div class="card-title-wrapper"><div class="card-title content-hover-animation">Correspondence Assistant</div></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-3 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"><div><div role="link"><div class="our-resources-card-v2 container" style="background: rgb(231, 194, 125);"><img src="/static/media/cardImg.aa0fd4aefab33f7b7493.png" class="card-image" alt="" style="width: 100%;"><div class="our-resource-sky-blue background-colour card-hover-animation"></div><div class="card-icon-wrapper content-hover-animation"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE4AAABOCAYAAACOqiAdAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMNSURBVHgB7Zv/cdMwFMdfOP6nG+ARygSYCVomaDcgTICZgDBBmwnaTtCwQZjAYYKUCR7vncSd4yiJJVm2lX4/d7o0Tm1Jn1jP+hUiAAAAAAAAAAAAgNfMjHqCmS/k5VLStaT3ki5oGrxI+iPpcTabragnosVZYV8kzWk6sg6xkXQvaSkSNzQWIq2UVHN+1JJKGgPJ+Ibz54YCCWqqkqHGsQfHRxpPlpLWZJrFFNDwoeX9KKlwfP5Zmu0jpUakFexungs28W6ySPkqR7m3WidKjWRy78j8ljJBy+oo/x2lxN5tbSrKDCnz3FGPdK3FkWFNmSJlf27VZe5z/hvy46r1/jvly1Pr/RWlwgbSJpeUKY6w49V6vLojevWdkwXKmJj6+DZVYBlFnDZxSQ/aDeCAPpRtZnc2wE8/XLSf3xQI73agn8kT3n0ibkO7EjH1GfyOs3dY0TgUUumidf7gI5bBxdnpnGXj0BP587P596hTRF3oq6naa5UcMUa0cS4qvsXUB92RBuiODADEBQJxgUBcIBAXCMQFAnGBYJA/BH2NHFqD/NpHHu+vso0yyB88I3Yv+CjfjglUOfZ/to5zBxc3ypBLLnMvL4dW0XVx+BeZxW1FpehicknuWRAd5HsttDTKMcwQMuYbclxrwfEsKII+6zNoRmwWh2v2R5tr0F3Wyj9PcfaaGvPmHQWqsIp7WDxmEzOD6zOpaSU2XYuSzAzvO3v4L5kNPCvJbk09wWabV3Pafi3X/0ApiPmGpgbv74FJt3/kXMSxu0t0Tak4B3E2ttWtqqTdA5O7OHunrR132y2lJFdxfHzUERTbkj9V2QyjftB4O9ILcm9hVX5LKqUaL+TJW0qIlaaP/IKmx4rM/l9vaUqyaaUJS1NRX0XYp1BpSpI7bqLSVmQmDxYxwv7Tu7gj0nTbQvpt8fuopE0fsoI59VTlw1v5K3rNHBMHaUc4JA7STuASB2kdcMiBtC44BEFaF/g0FYF9IC0QSAsE0gLh/fmsisBpePcXxhWB7rDZaZTtrwYBAAAAAM6Ef7Yin9A1HiEwAAAAAElFTkSuQmCC" alt=""></div><div class="card-title-wrapper"><div class="card-title content-hover-animation">HR Ask N Answer (HANA)</div></div></div></div></div></div></div></div><div class="TOOLKITS-VISUALS-RESOURCES">TOOLKITS &amp; VISUALS</div><div><div class="MuiGrid-root our-resources-grids-inner-container MuiGrid-container MuiGrid-spacing-xs-3"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-3 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"><div><div role="link"><div class="our-resources-card-v2 container" style="background: rgb(231, 194, 125);"><img src="/static/media/cardImg.5cb11b3d2d30b7bf9eb1.jpg" class="card-image" alt="" style="width: 100%;"><div class="our-resource-red background-colour card-hover-animation"></div><div class="card-icon-wrapper content-hover-animation"><img src="/static/media/DRT_icon.bf5115ec02cb42562e31.png" alt=""></div><div class="card-title-wrapper"><div class="card-title content-hover-animation">Data Readiness Toolkit 
+(beta)</div></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-3 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"><div><div role="link"><div class="our-resources-card-v2 container" style="background: rgb(231, 194, 125);"><img src="/static/media/NLPCard.fbe6968cc53454f8aea5.jpg" class="card-image" alt="" style="width: 100%;"><div class="our-resource-red background-colour card-hover-animation"></div><div class="card-icon-wrapper content-hover-animation"><img src="/static/media/NLPIcon.ac866c37c30bcc41cc1e.png" alt=""></div><div class="card-title-wrapper"><div class="card-title content-hover-animation">Natural Language Processing Toolkit (beta)</div></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-3 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"><div><div role="link"><div class="our-resources-card-v2 container" style="background: rgb(231, 194, 125);"><img src="/static/media/ML Tool Mouseover.431e6964dad7c9c132cb.png" class="card-image" alt="" style="width: 100%;"><div class="our-resource-red background-colour card-hover-animation"></div><div class="card-icon-wrapper content-hover-animation"><img src="/static/media/ML Decision Toolkit Icon.fb7b3ba38bbf5cdfc6cf.png" alt=""></div><div class="card-title-wrapper"><div class="card-title content-hover-animation">Machine Learning Decisions Toolkit (beta)</div></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-3 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"><div><div role="link"><div class="our-resources-card-v2 container" style="background: rgb(231, 194, 125);"><img src="/static/media/OmnivisionResouceCard.b20852112bf14cd65ff7.jpg" class="card-image" alt="" style="width: 100%;"><div class="our-resource-red background-colour card-hover-animation"></div><div class="card-icon-wrapper content-hover-animation"><img src="/static/media/OmnivisionResource.ee6efd8dfe5fabdb53b092f89af9dd84.svg" alt=""></div><div class="card-title-wrapper"><div class="card-title content-hover-animation">OmniVISION (beta)</div></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-3 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"><div><div role="link"><div class="our-resources-card-v2 container" style="background: rgb(231, 194, 125);"><img src="/static/media/cardImg.85e33ff0d5200c411753.jpg" class="card-image" alt="" style="width: 100%;"><div class="our-resource-orange background-colour card-hover-animation"></div><div class="card-icon-wrapper content-hover-animation"><img src="/static/media/datadiscovery_icon.ccb8795d6b0d35010b2d.png" alt=""></div><div class="card-title-wrapper"><div class="card-title content-hover-animation">Data Visuals</div></div></div></div></div></div></div></div><div class="TOOLKITS-VISUALS-RESOURCES ">TEG SESSIONS</div><div><div class="MuiGrid-root our-resources-grids-inner-container MuiGrid-container MuiGrid-spacing-xs-3"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-3 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"><div><div role="link"><div class="our-resources-card-v2 container" style="background: rgb(231, 194, 125);"><img src="/static/media/cardImg.81400d9f08c32266523e.png" class="card-image" alt="" style="width: 100%;"><div class="our-resource-blue background-colour card-hover-animation"></div><div class="card-icon-wrapper content-hover-animation"><img src="/static/media/icon.3100182cec1edde06ed2.png" alt=""></div><div class="card-title-wrapper"><div class="card-title content-hover-animation">Dataspeaks Sessions</div></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-3 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"><div><div role="link"><div class="our-resources-card-v2 container" style="background: rgb(231, 194, 125);"><img src="/static/media/AgileTEGCardImage.240ccb3a9e0c2c24479a.png" class="card-image" alt="" style="width: 100%;"><div class="our-resource-blue background-colour card-hover-animation"></div><div class="card-icon-wrapper content-hover-animation"><img src="data:image/png;base64,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" alt=""></div><div class="card-title-wrapper"><div class="card-title content-hover-animation">Agile TEG Sessions</div></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-3 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"><div><div role="link"><div class="our-resources-card-v2 container" style="background: rgb(231, 194, 125);"><img src="/static/media/cardImg.acedd06adf5fe084a163.jpg" class="card-image" alt="" style="width: 100%;"><div class="our-resource-blue background-colour card-hover-animation"></div><div class="card-icon-wrapper content-hover-animation"><img src="/static/media/icon.bf26055489a157c0ef37.png" alt=""></div><div class="card-title-wrapper"><div class="card-title content-hover-animation">Code Ninjas Sessions</div></div></div></div></div></div></div></div><div class="TOOLKITS-VISUALS-RESOURCES ">PLAYBOOKS &amp; GUIDES</div><div><div class="MuiGrid-root our-resources-grids-inner-container MuiGrid-container MuiGrid-spacing-xs-3"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-lg-3"><div><div role="link"><div class="our-resources-card-v2 container" style="background: rgb(231, 194, 125);"><img src="/static/media/cardImg.8e5b1b61fb6cff9ce855.png" class="card-image" alt="" style="width: 100%;"><div class="our-resource-green background-colour card-hover-animation"></div><div class="card-icon-wrapper content-hover-animation"><img src="/static/media/icon.7f57cabf4cdb7af90922.png" alt=""></div><div class="card-title-wrapper"><div class="card-title content-hover-animation">Fundamental AI Concepts Guide</div></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-lg-3"><div><div role="link"><div class="our-resources-card-v2 container" style="background: rgb(231, 194, 125);"><img src="/static/media/cardImg.da2a07a7e145a85ecc11.png" class="card-image" alt="" style="width: 100%;"><div class="our-resource-green background-colour card-hover-animation"></div><div class="card-icon-wrapper content-hover-animation"><img src="/static/media/icon.7f57cabf4cdb7af90922.png" alt=""></div><div class="card-title-wrapper"><div class="card-title content-hover-animation">Data Catalogue Playbook</div></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-lg-3"><div><div role="link"><div class="our-resources-card-v2 container" style="background: rgb(231, 194, 125);"><img src="/static/media/cardImg.9cffdaeff42bf25d7b58.png" class="card-image" alt="" style="width: 100%;"><div class="our-resource-green background-colour card-hover-animation"></div><div class="card-icon-wrapper content-hover-animation"><img src="/static/media/icon.7f57cabf4cdb7af90922.png" alt=""></div><div class="card-title-wrapper"><div class="card-title content-hover-animation">Prompt Engineering Playbook</div></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-lg-3"><div><div role="link"><div class="our-resources-card-v2 container" style="background: rgb(231, 194, 125);"><img src="/static/media/cardImg.1b536d687d81ece8bb71.png" class="card-image" alt="" style="width: 100%;"><div class="our-resource-green background-colour card-hover-animation"></div><div class="card-icon-wrapper content-hover-animation"><img src="/static/media/Icon.51f756c36515170fd895.png" alt=""></div><div class="card-title-wrapper"><div class="card-title content-hover-animation">Service Journey Playbook (alpha)</div></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-lg-3"><div><div role="link"><div class="our-resources-card-v2 container" style="background: rgb(231, 194, 125);"><img src="/static/media/cardImg.ebaa741f49061f856913.png" class="card-image" alt="" style="width: 100%;"><div class="our-resource-green background-colour card-hover-animation"></div><div class="card-icon-wrapper content-hover-animation"><img src="/static/media/Icon.51f756c36515170fd895.png" alt=""></div><div class="card-title-wrapper"><div class="card-title content-hover-animation">Visualisation Playbook</div></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-lg-3"><div><div role="link"><div class="our-resources-card-v2 container" style="background: rgb(231, 194, 125);"><img src="/static/media/cardImg.51c199a699541a3526d8.png" class="card-image" alt="" style="width: 100%;"><div class="our-resource-green background-colour card-hover-animation"></div><div class="card-icon-wrapper content-hover-animation"><img src="/static/media/icon.7f57cabf4cdb7af90922.png" alt=""></div><div class="card-title-wrapper"><div class="card-title content-hover-animation">AI Playbook</div></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-lg-3"><div><div role="link"><div class="our-resources-card-v2 container" style="background: rgb(231, 194, 125);"><img src="/static/media/cardImg.0d18053a6450d1903d09.png" class="card-image" alt="" style="width: 100%;"><div class="our-resource-green background-colour card-hover-animation"></div><div class="card-icon-wrapper content-hover-animation"><img src="/static/media/icon.7f57cabf4cdb7af90922.png" alt=""></div><div class="card-title-wrapper"><div class="card-title content-hover-animation">UI/UX Playbook</div></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-lg-3"><div><div role="link"><div class="our-resources-card-v2 container" style="background: rgb(231, 194, 125);"><img src="/static/media/cardImg.9a307cef64373773e76f.png" class="card-image" alt="" style="width: 100%;"><div class="our-resource-green background-colour card-hover-animation"></div><div class="card-icon-wrapper content-hover-animation"><img src="/static/media/icon.7f57cabf4cdb7af90922.png" alt=""></div><div class="card-title-wrapper"><div class="card-title content-hover-animation">Agile Playbook</div></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-lg-3"><div><div role="link"><div class="our-resources-card-v2 container" style="background: rgb(231, 194, 125);"><img src="/static/media/cardImg.35b16ca642c740e86169.jpg" class="card-image" alt="" style="width: 100%;"><div class="our-resource-purple background-colour card-hover-animation"></div><div class="card-icon-wrapper content-hover-animation"><img src="/static/media/icon.cbed41592f308290cfb8.png" alt=""></div><div class="card-title-wrapper"><div class="card-title content-hover-animation">Tips &amp; Tricks</div></div></div></div></div></div></div></div></div><div class=" footer-section-container-basic"><div class="footer-section-content"><a href="mailto:lta_dataspeaks@lta.gov.sg" style="text-decoration: none; color: inherit;"><div class="footer-section-description">Have a question? Some feedback? Or just want to chat?<br><br></div><div style="left: 40%;"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined" tabindex="0" type="button" style="font-family: Montserrat; font-weight: 400; font-size: 17px; border-radius: 25px; color: rgb(57, 184, 186); border: 1px solid rgb(57, 184, 186); padding-left: 20px; padding-right: 20px;"><span class="MuiButton-label">DROP US A MESSAGE</span><span class="MuiTouchRipple-root"></span></button><br><br><br></div></a><div class="footer-copyrights">a Digital Lab initiative | © ITCD Data Science Division</div></div></div></div></section></div></div></div><div style="position: fixed; bottom: 10px; right: 20px; color: whitesmoke; pointer-events: none; opacity: 0.4; z-index: 99999;"><p class="MuiTypography-root MuiTypography-body1">v0.1.25</p></div></div></div><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-1MF3XRX52W"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-1MF3XRX52W")</script></body></html>

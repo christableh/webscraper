@@ -1,0 +1,13 @@
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureImg {
+  max-width: 150px;  /* Set a reasonable max width */
+  height: auto;  /* Maintain aspect ratio */
+  margin-bottom: 20px;  /* Add some space between image and text */
+}

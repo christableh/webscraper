@@ -1,0 +1,29 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: link-scanner-app
+    ports:
+      - "3001:3001" # React
+      - "3002:3002" # Express Backend
+      - "3003:3003" # Docs
+    environment:
+      PYTHONUNBUFFERED: 1
+    volumes:
+      - ./python_scripts:/app/python_scripts
+      - ./react:/app/react
+      - ./express:/app/express
+      - ./docs:/app/docs
+    command: >
+      npx concurrently
+      "serve -s /app/react/build --listen 3001" \
+      "node /app/express/server.js --port 3002" \
+      "serve -s /app/docs/build --listen 3003"
+    shm_size: "2g" # Increase shared memory for Playwright execution
+    deploy:
+      resources:
+        limits:
+          memory: 4g # Limit memory usage
+        reservations:
+          memory: 2g # Reserve 2GB of memory
